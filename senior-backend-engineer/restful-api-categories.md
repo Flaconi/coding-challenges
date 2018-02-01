@@ -3,14 +3,12 @@
 Create a simple project to provide a RESTful API to manage categories for an e-commerce website.
 
 The category entity has the following structure:
-```javascript
-{
+```
         id: <Uuid>,
         name: <String>,
         slug: <String>,
         parentCategory: <Category>,
         isVisible: <Boolean>
-}
 ```
 
 ## Required functionality:
