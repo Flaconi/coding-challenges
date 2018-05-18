@@ -48,7 +48,7 @@ to the sketch below.
 
 ## Outstanding bonus points
 
-* For local development, have syncronized file and directory permissions between container and host os[\[4\]](#4-synronized-permissions)
+* For local development, have syncronized file and directory permissions between container and host os[\[4\]](#4-syncronized-permissions)
 
 ---
 
