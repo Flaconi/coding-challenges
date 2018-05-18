@@ -1,7 +1,7 @@
 # Senior DevOps Engineer: Docker
 
 
-Design and implement a *high available[\[1\]](#highavailable)* infrastructure with Docker and Docker Compose similar
+Design and implement a *high available[\[1\]](#1-high-available)* infrastructure with Docker and Docker Compose similar
 to the sketch below.
 
 
@@ -26,8 +26,8 @@ to the sketch below.
 
 ## Required functionality:
 
-* You need to have at least two FE's[\[2\]](#fe)
-* You need to have at least two BE's[\[3\]](#be)
+* You need to have at least two FE's[\[2\]](#2-fe)
+* You need to have at least two BE's[\[3\]](#3-be)
 * Database must have persistant storage
 * Host OS must be able to access the application via http or https
 
@@ -35,7 +35,7 @@ to the sketch below.
 ## Technical constraints:
 
 * You can make use of official Docker images
-* FE and BE applications are provided
+* [FE](data/fe/) and [BE](data/be/) applications as well as MySQL [dummy data](data/sql/) is provided
 * Provide a working `docker-compose.yml` and instructions how to get the setup running
 
 
@@ -48,26 +48,26 @@ to the sketch below.
 
 ## Outstanding bonus points
 
-* For local development, have syncronized file and directory permissions between container and host os[\[4\]](#perm)
+* For local development, have syncronized file and directory permissions between container and host os[\[4\]](#4-synronized-permissions)
 
 ---
 
 ## Notes
 
-##### \[1\] <span name="highavailable" id="highavailable">High-available</span>
+##### \[1\] High-available
 
 Load Balancer's itself are just for demonstration purposes and don't need to be high available or
 redundant in your implementation.
 
-##### \[2\] <span name="fe" id="fe">FE</span>
+##### \[2\] FE
 
 FE refers to the front end and is provided within this repository.
 
-##### \[3\] <span name="be" id="be">BE</span>
+##### \[3\] BE
 
 BE refers to the back end and is provided within this repository.
 
-##### \[4\] <span name="perm" id="perm">Syncronized permissions</span>
+##### \[4\] Syncronized permissions
 
 When using this setup as a local development stack, you don't want to start it up as root, but
 rather as your local user. Additionally you want to have FE and BE data mounted to you host operating
