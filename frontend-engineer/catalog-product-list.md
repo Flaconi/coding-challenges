@@ -1,4 +1,4 @@
-# Senior Frontend Engineer
+# Frontend Engineer
 
 Create a simple project to provide a responsive frontend to show a multi-column list of products for an e-commerce website like you can see on https://www.flaconi.de/parfum/.
 

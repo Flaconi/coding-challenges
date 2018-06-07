@@ -1,4 +1,4 @@
-# Senior Test Automation Engineer
+# Test Automation Engineer
 
 Create a test scenario to ensure that the following user journey is working properly
 
