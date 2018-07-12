@@ -1,6 +1,6 @@
 # Test Automation Engineer
 
-Create a test scenario to ensure that the following user journey is working properly
+Create a test scenario to ensure that the following user journey is working as expected
 
 - user visits https://www.flaconi.de
 - user wants to buy perfume

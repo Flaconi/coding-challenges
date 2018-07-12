@@ -1,6 +1,6 @@
 # Frontend Engineer
 
-Create a simple project to provide a responsive frontend to show a multi-column list of products for an e-commerce website like you can see on https://www.flaconi.de/parfum/.
+Create a simple project to provide a responsive frontend to show a multi-column list of products for an e-commerce website as you can see on https://www.flaconi.de/parfum/.
 
 The product entities have the following structure and will be provided in an array of products:
 ```javascript
