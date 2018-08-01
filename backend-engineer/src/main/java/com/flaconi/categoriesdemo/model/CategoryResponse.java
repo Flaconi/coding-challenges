@@ -17,7 +17,7 @@ public class CategoryResponse implements Serializable {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 4876131842333106853L;
+	private static final long serialVersionUID = 1L;
 
 	private UUID id;
 
@@ -34,11 +34,7 @@ public class CategoryResponse implements Serializable {
 	@NotNull
 	private Boolean isVisible;
 
-	private String createdBy;
-
 	private Date creationTime;
-
-	private String updatedBy;
 
 	private Date updationTime;
 
@@ -90,28 +86,12 @@ public class CategoryResponse implements Serializable {
 		this.isVisible = isVisible;
 	}
 
-	public String getCreatedBy() {
-		return createdBy;
-	}
-
-	public void setCreatedBy(String createdBy) {
-		this.createdBy = createdBy;
-	}
-
 	public Date getCreationTime() {
 		return creationTime;
 	}
 
 	public void setCreationTime(Date creationTime) {
 		this.creationTime = creationTime;
-	}
-
-	public String getUpdatedBy() {
-		return updatedBy;
-	}
-
-	public void setUpdatedBy(String updatedBy) {
-		this.updatedBy = updatedBy;
 	}
 
 	public Date getUpdationTime() {
@@ -122,7 +102,7 @@ public class CategoryResponse implements Serializable {
 		this.updationTime = updationTime;
 	}
 
-	public CategoryResponse(UUID id, @NotBlank String name, @NotBlank String slug, String parentCategory, Set<CategoryResponse> subCategories, @NotNull Boolean isVisible, String createdBy, Date creationTime, String updatedBy, Date updationTime) {
+	public CategoryResponse(UUID id, @NotBlank String name, @NotBlank String slug, String parentCategory, Set<CategoryResponse> subCategories, @NotNull Boolean isVisible) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -130,10 +110,6 @@ public class CategoryResponse implements Serializable {
 		this.parentCategory = parentCategory;
 		this.subCategories = subCategories;
 		this.isVisible = isVisible;
-		this.createdBy = createdBy;
-		this.creationTime = creationTime;
-		this.updatedBy = updatedBy;
-		this.updationTime = updationTime;
 	}
 
 	public CategoryResponse() {

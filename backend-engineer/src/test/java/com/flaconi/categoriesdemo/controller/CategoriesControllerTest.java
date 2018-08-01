@@ -6,7 +6,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import java.util.Date;
 import java.util.UUID;
 
 import org.junit.Test;
@@ -40,7 +39,7 @@ public class CategoriesControllerTest {
 
 	@Test
 	public void testGetCategoryById() throws Exception {
-		CategoryResponse category = new CategoryResponse(UUID.randomUUID(), "category 1", "slug 1", null, null, true, null, new Date(), null, new Date());
+		CategoryResponse category = new CategoryResponse(UUID.randomUUID(), "category 1", "slug 1", null, null, true);
 		when(categoryService.getCategoryByIdOrSlug(category.getId().toString())).thenReturn(category);
 
 		this.mvc.perform(get("/api/categories/{idOrSlug}", category.getId().toString())).andExpect(status().isOk()).andExpect(jsonPath("$.id").value(category.getId().toString())).andDo(print());
@@ -48,7 +47,7 @@ public class CategoriesControllerTest {
 
 	@Test
 	public void testGetCategoryBySlug() throws Exception {
-		CategoryResponse category = new CategoryResponse(UUID.randomUUID(), "category 1", "slug", null, null, true, null, new Date(), null, new Date());
+		CategoryResponse category = new CategoryResponse(UUID.randomUUID(), "category 1", "slug", null, null, true);
 		when(categoryService.getCategoryByIdOrSlug("slug")).thenReturn(category);
 
 		this.mvc.perform(get("/api/categories/{idOrSlug}", "slug")).andExpect(status().isOk()).andExpect(jsonPath("$.id").value(category.getId().toString())).andDo(print());

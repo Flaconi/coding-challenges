@@ -166,6 +166,8 @@ public class CategoryServiceImpl implements CategoryService {
 		response.setSlug(category.getSlug());
 		response.setIsVisible(category.getIsVisible());
 		response.setParentCategory(category.getParentCategory() != null ? category.getParentCategory().getId().toString() : null);
+		response.setCreationTime(category.getCreationTime());
+		response.setUpdationTime(category.getUpdationTime());
 		return response;
 	}
 
