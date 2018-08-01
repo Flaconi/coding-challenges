@@ -1,10 +1,11 @@
-# Flaconi's Coding Challenges
+# Running the project
+```bash
+# install docker, docker-compose and httpie up front
+# navigate to backend-engineer folder
+docker-compose up #starts PostgreSQL
+mvn package #builds the service
+java -jar target/categories-demo-0.0.1-SNAPSHOT.jar & #starts the service
+# Below is the link for swagger
+http://localhost:8080/swagger-ui.html#/category-controller
+```
 
-Coding challenges we send out for engineering positions applicants.
-
-* Test Automation Engineer
-  * [User journey end to end test](https://github.com/Flaconi/coding-challenges/blob/master/test-automation-engineer/user-journey.md)
-* Backend Engineer
-  * [RESTful API to manage categories](https://github.com/Flaconi/coding-challenges/blob/master/backend-engineer/restful-api-categories.md)
-* Frontend Engineer
-  * [responsive catalog frontend](https://github.com/Flaconi/coding-challenges/blob/master/frontend-engineer/catalog-product-list.md)

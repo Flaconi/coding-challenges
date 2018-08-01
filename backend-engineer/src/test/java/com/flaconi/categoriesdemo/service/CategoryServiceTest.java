@@ -17,7 +17,6 @@ import org.mockito.Mock;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.flaconi.categoriesdemo.model.Category;
-import com.flaconi.categoriesdemo.model.CategoryRequest;
 import com.flaconi.categoriesdemo.model.CategoryResponse;
 import com.flaconi.categoriesdemo.repository.CategoryDAO;
 import com.flaconi.categoriesdemo.services.impl.CategoryServiceImpl;
