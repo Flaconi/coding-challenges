@@ -1,0 +1,12 @@
+version: '2'
+services:
+  postgres:
+    image: postgres:9.6
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: p@ssword
+      
+      
+# execute lsof -i tcp:5432 to check if postgres is listening on localhost:5432
