@@ -1,4 +1,4 @@
-# Senior DevOps Engineer: Docker
+# DevOps Engineer: Docker
 
 
 Design and implement a *high available[\[1\]](#1-high-available)* infrastructure with Docker and Docker Compose similar

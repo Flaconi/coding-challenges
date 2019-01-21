@@ -1,4 +1,4 @@
-# Senior DevOps Engineer: Cloudformatoin
+# DevOps Engineer: Cloudformatoin
 
 Create a parameterized cloudformation template that is capable of provisioning a VPC, IGW,
 two public subnets with a NAT gateway each, two private subnets and corresponding routing tables.
