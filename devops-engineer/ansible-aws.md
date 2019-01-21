@@ -1,4 +1,4 @@
-# Senior DevOps Engineer: Ansible + AWS
+# DevOps Engineer: Ansible + AWS
 
 Create a stand-alone Ansible role that is able to peer any number of VPC pairs in AWS in a single
 account.
