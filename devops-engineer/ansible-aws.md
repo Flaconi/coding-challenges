@@ -1,6 +1,6 @@
-# DevOps Engineer: Ansible + AWS
+# DevOps Engineer: Terraform + AWS
 
-Create a stand-alone Ansible role that is able to peer any number of VPC pairs in AWS in a single
+Create a Terraform script that is able to peer any number of VPC pairs in AWS in a single
 account.
 
 
