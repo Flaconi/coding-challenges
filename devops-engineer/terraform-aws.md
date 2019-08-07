@@ -45,4 +45,4 @@ Additionally after successful run you should have the following Terraform output
 ## Bonus points
 
 * The Terraform module has a README.md with usage instructions and generated inputs/outputs via
-`terraform-doc`.
+`terraform-docs`.
