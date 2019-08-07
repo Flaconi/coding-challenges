@@ -3,7 +3,7 @@
 
 ## Terraform module
 
-Create a stand-alone Terraform module (in its own directory, github or Terraform module registry),
+Create a stand-alone Terraform module (e.g.: in its own directory, github or similar),
 which is able to do the following:
 
 * Provision a VPC with private and public subnets
