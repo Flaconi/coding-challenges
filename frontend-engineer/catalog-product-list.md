@@ -38,3 +38,4 @@ id is the product SKU, image contains a full URL, the price is in cents and the 
 * You will add some kind of pagination / load more functionality.
 * You will provide optimized and minimized version of scripts and styles.
 * You will write some basic tests for your JavaScript code.
+* You create simple GraphQL server to get the products
