@@ -28,8 +28,8 @@ id is the product SKU, image contains a full URL, the price is in cents and the 
 
 ## Technical constraints:
 
-* You can use any programming language, tools and frameworks you see fit.
-* You need to show some knowledge of HTML5, CSS preprocessing and modern JavaScript.
+* You can use any programming language, tools and frameworks you see fit, preferably React, Redux, Styled components💅. 
+* You need to show some knowledge of HTML5, modern JavaScript(ES6).
 * You need to provide a straight-forward method of running your project.
 
 ## Bonus points:
