@@ -28,8 +28,8 @@ id is the product SKU, image contains a full URL, the price is in cents and the 
 
 ## Technical constraints:
 
-* You can use any programming language, tools and frameworks you see fit.
-* You need to show some knowledge of HTML5, CSS preprocessing and modern JavaScript.
+* You can use any programming language, tools and frameworks you see fit, preferably React, Redux, Styled components💅. 
+* You need to show some knowledge of HTML5, modern JavaScript(ES6).
 * You need to provide a straight-forward method of running your project.
 
 ## Bonus points:
@@ -38,3 +38,4 @@ id is the product SKU, image contains a full URL, the price is in cents and the 
 * You will add some kind of pagination / load more functionality.
 * You will provide optimized and minimized version of scripts and styles.
 * You will write some basic tests for your JavaScript code.
+* You create simple GraphQL server to get the products
