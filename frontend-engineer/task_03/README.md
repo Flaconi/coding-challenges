@@ -2,17 +2,13 @@
 
 ### Objective
 
-Scenario - Weathermap api client
+Single Page application (SPA) which displays a list of Github users by using Github public GraphQL API with an option to display detailed user data on a separate page.
 
-Your app should be a client for the [Open Weather Map API](http://openweathermap.org/API#weather) JSON api
-
-Features that should work:
-
-- Display the weather at random geographic coordinates
-- A form with city and country that fetches and displays the weather in this city
-  - optional: cache the fetched weather data
-- Gracefully handle the case where the city could not be found (display the information to the user)
-- Provide an overview which points you would improve if you had more time to work on the project
+- A list of github users (avatar, login, details button) is displayed.
+- Bonus points if you can show the loading spinner before all users have beenfetched.
+- Bonus points if you can make “Load more users” feature
+- When details button is clicked a new page with information about the user is shown.Fields (id, avatar, login, html_url) with a back button to go back to the initial list of users.
+- Single user page should display the user data after refreshing the page.
 
 ## Stack
 
