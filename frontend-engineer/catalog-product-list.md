@@ -42,7 +42,7 @@ id is the product SKU, image contains a full URL, the price is in cents and the 
 
 ## Hints
 
-* Threat this project as if you would continue working on this after your assignment: maintainability, scalability, and readability are super important
+* Treat this project as if you would continue working on this after your assignment: maintainability, scalability, and readability are super important
 * Even though we allow third-party libraries, try to rely as little as possible on tools that write React-, Redux-, CSS-related code for you
 * To speed things up, you can use CRA to bootstrap your app.
 * If you have any questions feel free to ask us! 
