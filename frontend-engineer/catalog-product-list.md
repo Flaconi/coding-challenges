@@ -25,13 +25,13 @@ id is the product SKU, image contains a full URL, the price is in cents and the 
 * Products are display in a responsive multi-column layout for mobile, tablet & desktop.
 * Product images should scale accordingly.
 * The list of products is wrapped by some basic layout.
+* You will provide some methods to filter the list of products by brand and type.
 
 ## Technical constraints:
 
 * You should use  React, Styled components💅, state management is a matter of your choice.
 * You need to show some knowledge of HTML5, modern JavaScript(ES6) or TypeScript.
 * You will provide a working Dockerfile to run your project
-* You will provide some methods to filter the list of products by brand and type.
 
 ## Bonus points:
 
