@@ -25,17 +25,27 @@ id is the product SKU, image contains a full URL, the price is in cents and the 
 * Products are display in a responsive multi-column layout for mobile, tablet & desktop.
 * Product images should scale accordingly.
 * The list of products is wrapped by some basic layout.
+* You will provide some methods to filter the list of products by brand and type.
 
 ## Technical constraints:
 
-* You can use any programming language, tools and frameworks you see fit, preferably React, Redux, Styled components💅. 
-* You need to show some knowledge of HTML5, modern JavaScript(ES6).
-* You need to provide a straight-forward method of running your project.
+* You should use  React, Styled components💅, state management is a matter of your choice.
+* You need to show some knowledge of HTML5, modern JavaScript(ES6) or TypeScript.
+* You will provide a working Dockerfile to run your project
 
 ## Bonus points:
 
-* You will provide some methods to sort / filter the list of products.
+* You will provide some methods to sort the list of products.
 * You will add some kind of pagination / load more functionality.
-* You will provide optimized and minimized version of scripts and styles.
-* You will write some basic tests for your JavaScript code.
+* You will write some basic tests for your JavaScript code using Jest.
 * You create simple GraphQL server to get the products
+
+## Hints
+
+* Treat this project as if you would continue working on this after your assignment: maintainability, scalability, and readability are super important
+* Even though we allow third-party libraries, try to rely as little as possible on tools that write React-, Redux-, CSS-related code for you
+* To speed things up, you can use CRA to bootstrap your app.
+* If you have any questions feel free to ask us! 
+
+## Hope you enjoy it!
+<img src="https://media1.tenor.com/images/170130993a5ce8d03f29415756393597/tenor.gif?itemid=7963714" width="150" height="150" />
